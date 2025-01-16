@@ -5,7 +5,7 @@
 f = open('./day02/textfile.txt', mode='w', encoding='utf-8') # 파일 생성, 읽기
 # 아무것도 안 함
 f.write('저는 한국사람입니다.\n')
-f.write('저는 여자입니다.\n')
+f.write('저는 남자입니다.\n')
 f.close()
 
 print('텍스트파일이 생성되었습니다.')
